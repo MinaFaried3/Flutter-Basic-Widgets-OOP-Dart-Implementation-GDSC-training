@@ -1,6 +1,7 @@
 import 'a-widget.dart';
+import 'b-stateless.dart';
 
-class Center extends Widget {
+class Center extends StatelessWidget {
   final Widget child;
 
   Center({required this.child});

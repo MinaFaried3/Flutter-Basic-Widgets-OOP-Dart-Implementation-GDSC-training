@@ -1,7 +1,8 @@
 import 'a-widget.dart';
+import 'b-stateless.dart';
 import 'd-text.dart';
 
-class AppBar extends Widget {
+class AppBar extends StatelessWidget {
   final Text title;
 
   AppBar({required this.title});

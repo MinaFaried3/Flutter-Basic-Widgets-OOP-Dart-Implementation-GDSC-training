@@ -1,6 +1,7 @@
 import 'a-widget.dart';
+import 'b-stateless.dart';
 
-class Text extends Widget {
+class Text extends StatelessWidget {
   final String title;
   final TextStyle? style;
 

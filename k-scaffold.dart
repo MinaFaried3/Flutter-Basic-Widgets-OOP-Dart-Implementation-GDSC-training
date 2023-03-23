@@ -1,6 +1,6 @@
 import 'a-widget.dart';
 import 'm-button.dart';
-import '12-fab.dart';
+import 'n-fab.dart';
 import 'b-stateless.dart';
 import 'd-text.dart';
 import 'e-app_bar.dart';
@@ -8,7 +8,7 @@ import 'f-column.dart';
 import 'g-container.dart';
 import 'h-center.dart';
 
-class Scaffold extends Widget {
+class Scaffold extends StatelessWidget {
   final AppBar appBar;
   final Widget body;
   final Button floatingActionButton;
